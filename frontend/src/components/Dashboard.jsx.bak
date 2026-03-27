@@ -1,0 +1,5 @@
+// This file has been replaced by DashboardEnhanced.jsx
+// Please use DashboardEnhanced.jsx instead
+export default function Dashboard() {
+  return <div>This component has been replaced by DashboardEnhanced.jsx</div>;
+}

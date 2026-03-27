@@ -1,0 +1,12 @@
+2026-03-27 13:02:45.031660+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "VERIFICATION_COMMENTS CHARACTER VARYING(255)": "'AI Verified: {document_type=Aadhaar Card, extracted_data={aadhaar_number=123456... (478)"; SQL statement:
+update document set content_type=?,document_type=?,file_name=?,file_path=?,file_size=?,upload_status=?,upload_time=?,username=?,verification_comments=? where id=? [22001-224]
+2026-03-27 13:03:26.520982+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "VERIFICATION_COMMENTS CHARACTER VARYING(255)": "'AI Verified: {document_type=Aadhaar Card, extracted_data={aadhaar_number=123456... (478)"; SQL statement:
+update document set content_type=?,document_type=?,file_name=?,file_path=?,file_size=?,upload_status=?,upload_time=?,username=?,verification_comments=? where id=? [22001-224]
+2026-03-27 13:45:04.703874+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "VERIFICATION_COMMENTS CHARACTER VARYING(255)": "'AI Verified: {document_type=Aadhaar Card, extracted_data={aadhaar_number=123456... (478)"; SQL statement:
+update document set content_type=?,document_type=?,file_name=?,file_path=?,file_size=?,upload_status=?,upload_time=?,username=?,verification_comments=? where id=? [22001-224]
+2026-03-27 13:45:17.916673+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "VERIFICATION_COMMENTS CHARACTER VARYING(255)": "'AI Verified: {document_type=PAN Card, extracted_data={pan_number=ABCDE1234F, na... (463)"; SQL statement:
+update document set content_type=?,document_type=?,file_name=?,file_path=?,file_size=?,upload_status=?,upload_time=?,username=?,verification_comments=? where id=? [22001-224]
